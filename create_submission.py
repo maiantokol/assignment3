@@ -12,13 +12,7 @@ def create_code_zip():
     
     # Files to include in code.zip
     code_files = [
-        'mnist_classifier.py',
-        'task1_basic_classification.py',
-        'task2_mitigate_randomness.py',
-        'task3_validation_dataset.py',
-        'task4_grid_search.py',
-        'task5_feature_analysis.py',
-        'run_assignment.py',
+        'mnist_simple.py',
         'README.md'
     ]
     

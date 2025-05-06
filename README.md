@@ -31,38 +31,20 @@ This repository contains the implementation of various feedforward neural networ
 
 ## Project Structure
 
-- `mnist_classifier.py`: Core implementation of the neural network model, training and evaluation functions
-- `task1_basic_classification.py`: Basic MNIST classification (Task 1)
-- `task2_mitigate_randomness.py`: Testing model robustness across different seeds (Task 2)
-- `task3_validation_dataset.py`: Using validation set for model selection (Task 3)
-- `task4_grid_search.py`: Grid search for hyperparameter optimization (Task 4)
-- `task5_feature_analysis.py`: t-SNE visualization of features (Task 5)
-- `run_assignment.py`: Main script to run individual or all tasks
+- `mnist_simple.py`: Complete implementation of all tasks in a single file
 - `report_template.tex`: LaTeX template for the assignment report
 
 ## How to Run
 
-### Running Individual Tasks
-
-To run a specific task, use:
+Run the script and choose which task to execute when prompted:
 
 ```bash
-python run_assignment.py --task [1-5]
+python mnist_simple.py
 ```
 
-For example, to run Task 1:
+You'll see a menu where you can select a specific task (1-5) or choose 'all' to run all tasks sequentially.
 
-```bash
-python run_assignment.py --task 1
-```
-
-### Running All Tasks in Sequence
-
-To run all tasks:
-
-```bash
-python run_assignment.py --all
-```
+For example, to run Task 1, enter '1' when prompted.
 
 ### Task Descriptions
 
