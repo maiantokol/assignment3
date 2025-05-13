@@ -33,14 +33,14 @@ test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
 
 images, labels = next(iter(train_loader))
 
-fig, axs = plt.subplots(2, 5)
-for ii in range(2):
-	for jj in range(5):
-		idx = 5 * ii + jj
-		axs[ii, jj].imshow(images[idx].squeeze())
-		axs[ii, jj].set_title(labels[idx].item())
-		axs[ii, jj].axis('off')
-plt.show()
+# fig, axs = plt.subplots(2, 5)
+# for ii in range(2):
+# 	for jj in range(5):
+# 		idx = 5 * ii + jj
+# 		axs[ii, jj].imshow(images[idx].squeeze())
+# 		axs[ii, jj].set_title(labels[idx].item())
+# 		axs[ii, jj].axis('off')
+# plt.show()
 
 class NeuralNet(torch.nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):
@@ -108,7 +108,7 @@ plt.ylabel('Error')
 plt.title('Training and Test Error')
 plt.legend()
 plt.grid(True)
-plt.savefig('error_curves.png')
+plt.savefig('task1_error_curves.png')
 plt.close()
 
 
@@ -160,7 +160,7 @@ if num_to_show > 0:
         axes[i].axis('off')
     
     plt.tight_layout()
-    plt.savefig('misclassified_examples.png')
+    plt.savefig('task1_misclassified_examples.png')
     plt.close()
 
     print('Accuracy of the network on the 10000 test images: {} %'.format(100 * correct / total))

@@ -1,0 +1,9 @@
+Final Test Errors Statistics:
+Seeds used: [42, 123, 456, 789, 999]
+Final errors for each seed: [2.319999999999993, 2.030000000000001, 2.1899999999999977, 2.0900000000000034, 2.1200000000000045]
+Mean Final Test Error: 2.15%
+Standard Deviation of Final Test Error: 0.10%
+Coefficient of Variation: 4.62%
+
+Robustness Analysis:
+The model appears to be robust to seed choice, with low variation in final test errors.
