@@ -6,8 +6,8 @@ The following table shows the test error corresponding to the minimum validation
 
 | Hidden Size | Batch Size | Learning Rate | Min Val Error | Test Error | Best Epoch |
 | ---------- | ---------- | ------------ | ------------- | ---------- | ---------- |
-| **500.0** | **50.0** | **0.001000** | **0.0766** | **0.0744** | **4** |
-| 300.0 | 50.0 | 0.001000 | 0.0862 | 0.0734 | 4 |
+| 500.0 | 50.0 | 0.001000 | 0.0766 | 0.0744 | 4 |
+| **<span style="background-color: yellow">300.0</span>** | **<span style="background-color: yellow">50.0</span>** | **<span style="background-color: yellow">0.001000</span>** | **<span style="background-color: yellow">0.0862</span>** | **<span style="background-color: yellow">0.0734</span>** | **<span style="background-color: yellow">4</span>** |
 | 500.0 | 100.0 | 0.001000 | 0.0885 | 0.0773 | 4 |
 | 500.0 | 200.0 | 0.001000 | 0.0959 | 0.0846 | 4 |
 | 300.0 | 100.0 | 0.001000 | 0.0995 | 0.0849 | 4 |
